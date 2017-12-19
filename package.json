@@ -1,0 +1,35 @@
+{
+  "name": "redux-saga-delay-mock",
+  "version": "0.0.1",
+  "description": "redux-saga-delay-mock",
+  "main": "dist/index.js",
+  "author": "Rob Gilson",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "compile": "babel -d dist/ src/"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "redux": "^3.7.2",
+    "redux-saga": "d1plo1d/redux-saga",
+    "redux-saga-tester": "github:d1plo1d/redux-saga-tester"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "redux-saga": "^1.0.0-beta.0"
+  }
+}
